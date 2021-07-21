@@ -12,4 +12,16 @@ export default defineConfig({
 
   base: BaseUrl,
   publicPath: BaseUrl + '/',
+
+  // extraBabelPlugins: [
+  //   [
+  //     'babel-plugin-import',
+  //     {
+  //       libraryName: 'antd',
+  //       libraryDirectory: 'es',
+  //       style: 'css',
+  //     },
+  //     'antd',
+  //   ],
+  // ],
 });
