@@ -147,9 +147,13 @@ class AnimateWrapper extends Component<
 
   render() {
     const { style } = this.state;
+    const { className = '', style: containerStyle = {} } = this.props;
     return (
       <div
-        className={`${styles.animate__animated} ${styles[`animate__${style}`]}`}
+        className={`${styles.animate__animated} ${
+          styles[`animate__${style}`]
+        } ${className}`}
+        style={containerStyle}
         onAnimationEnd={this.onAnimationEnd}
       >
         {this.props.children}

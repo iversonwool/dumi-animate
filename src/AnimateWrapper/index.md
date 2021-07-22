@@ -1,5 +1,13 @@
 ## AnimateWrapper
 
+该组件是对[animate.css](https://animate.style/)动画效果的一个简单封装，使用时导入组件，传入对应动画类型
+
+```
+<AnimateWrapper type="bounce">
+  <h1>Animate.css</h1>
+</AnimateWrapper>
+```
+
 Demo:
 
 ```tsx
