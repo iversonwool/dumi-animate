@@ -1,7 +1,9 @@
 {
-  "private": true,
-  "name": "animatecss",
+  "name": "lk-react-animatecss",
   "version": "1.0.0",
+  "description": "Animate React Component Based On animatecss.",
+  "author": "lee_klaus",
+  "maintainers": ["lee_klaus"],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
